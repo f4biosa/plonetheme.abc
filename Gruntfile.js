@@ -52,8 +52,9 @@ module.exports = function (grunt) {
             html: {
                 bsFiles: {
                     src : [
-                      'less/*.less',
-                      'barceloneta/less/*.less'
+                        'css/*.css',
+                        'js/*.js',
+                        '*.html'   
                     ]
                 },
                 options: {
@@ -68,8 +69,10 @@ module.exports = function (grunt) {
             plone: {
                 bsFiles: {
                     src : [
-                      'less/*.less',
-                      'barceloneta/less/*.less'
+                        'less/*.less',
+                        'barceloneta/less/*.less',
+                        '*.html',
+                        '*.xml'   
                     ]
                 },
                 options: {
