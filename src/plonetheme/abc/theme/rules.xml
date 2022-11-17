@@ -66,7 +66,16 @@
     <replace css:theme-children=".navbar-nav" css:content-children="#portal-globalnav" method="raw" />
 
     <!-- Carosel Slider -->
+    <replace
+      css:theme="#carousel-example-generic"
+      css:content="#carousel-example-generic"
+      href="/slider-images/@@slider-images"
+      css:if-content=".section-front-page"
+      />
+
     <drop css:theme="#front-page-slider" css:if-not-content=".section-front-page" />
+
+
 
 
     <!-- full-width breadcrumb -->
